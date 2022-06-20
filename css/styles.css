@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 /************************ TAG CSS*****************************/
 body{
   margin: 0;
@@ -132,10 +136,30 @@ p{
 .bottom-container{
   background-color: #66BFBF;
   padding: 50px 0 20px;
+  
+}
+.bottom-container2{
+  display:flex;
+  justify-content: center;
+}
+.contact-img{
+  position:relative;
+  top:8px;
+  width:30px;
+  height:30px;
+  border-radius:50px;
+
+}
+.footer-link{
+  margin:0 20px 0 6px;
+}
+.item{
+  margin :20px;
 }
 
 .copy-right{
   color:#EAF6F6;
-  margin:30px auto;
+
   font-size: 0.75rem;
+  align-self:center;
 }
